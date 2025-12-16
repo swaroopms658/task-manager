@@ -5,6 +5,9 @@ A simple, lightweight task manager for creating, organizing, and tracking tasks.
 > **NOTE:** This project was built as part of a technical assessment to demonstrate CRUD operations, database integration, and cloud deployment.
 
 ---
+<img width="1465" height="681" alt="image" src="https://github.com/user-attachments/assets/97a544db-f10f-4dee-a2f7-2b3098c12e3e" />
+<img width="724" height="521" alt="image" src="https://github.com/user-attachments/assets/4936d846-f44d-400a-9c78-5a66a4d38325" />
+
 
 ## Features
 
@@ -114,15 +117,20 @@ PORT=5000
 task-manager/
 │
 ├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   └── package.json
+│ ├── models/
+│ │ └── Task.js
+│ ├── routes/
+│ │ └── taskRoutes.js
+│ ├── server.js
+│ ├── .env
+│ └── package.json
 │
 ├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
+│ ├── src/
+│ │ ├── App.js
+│ │ ├── index.js
+│ │ └── App.css
+│ └── package.json
 │
 └── README.md
 ```
